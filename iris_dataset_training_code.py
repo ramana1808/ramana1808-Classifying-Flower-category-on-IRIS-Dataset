@@ -49,30 +49,3 @@ print("\n")
 print("accuracy score for numpy linear regression is :")
 print(accuracy_score(Y_m_test, new_predictions))
 print('\n')
-
-print(W)
-
-# # # to be done
-
-# # # initialise A
-# A = np.random.normal(size=(1,4))
-# print(A)
-
-# # # fix the loop
-# g = (X_m_train.dot(W)-y_train).dot(X_m_train)
-# print(g)
-# while abs(g.all()) >= 0.001 :
-#     A = A - 0.001*g
-
-# print(A)
-
-# # #thats all to fix 
-
-# # gd_predictions = np.round(X_m_test.dot(A))
-# # print("predictions using gradient descent linear regression are :")
-# # print(gd_predictions)
-# # print("\n")
-
-# # print("accuracy score for gradient descent linear regression is :")
-# # print(accuracy_score(Y_m_test, gd_predictions))
-# # print('\n')
